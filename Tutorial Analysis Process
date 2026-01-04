@@ -1,10 +1,15 @@
-Step by Step
-1. Search dataset from Kaggle
-2. Download file and extract to folder you had prepared
-3. Open Excel and import data from CSV (file that you just extracted)
-4. Try to transform data for checking and cleaning dataset
-5. Data cleaning process:
-   a. Check all columns filter, if there is an (blank) option
-   b. Check if there is column with multi-value in cell
-   c. Try logical cross-check by underrstand the meaning value of all columns
-6. 
+Search for a dataset on Kaggle.
+
+1. Download the file and extract it to a folder you have prepared.
+2. Open Excel and import the data from the CSV file (the extracted file).
+3. Transform the data to review and clean the dataset.
+4. Data cleaning process:
+   a. Perform a logical cross-check by understanding the meaning of each column.
+   b. Check the filter of all columns to see if there is a (blank) option.
+      Found: Non_Compliance_Reason
+      This column has many rows without values.
+      This column is related to the Policy_Compliance column.
+      If the value in Policy_Compliance is No, the Non_Compliance_Reason column should have a value.
+      If the value in Policy_Compliance is Yes, the Non_Compliance_Reason column should be blank.
+   c. Check if there are columns with multiple values in one cell.
+      Found: Non_Compliance_Reason
