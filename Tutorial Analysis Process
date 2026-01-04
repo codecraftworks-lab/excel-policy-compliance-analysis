@@ -3,4 +3,8 @@ Step by Step
 2. Download file and extract to folder you had prepared
 3. Open Excel and import data from CSV (file that you just extracted)
 4. Try to transform data for checking and cleaning dataset
-5. Data cleaning process start by checking all column in filter, if there is a (blank) option
+5. Data cleaning process:
+   a. Check all columns filter, if there is an (blank) option
+   b. Check if there is column with multi-value in cell
+   c. Try logical cross-check by underrstand the meaning value of all columns
+6. 
