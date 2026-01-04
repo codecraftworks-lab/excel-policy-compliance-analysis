@@ -1,0 +1,6 @@
+Step by Step
+1. Search dataset from Kaggle
+2. Download file and extract to folder you had prepared
+3. Open Excel and import data from CSV (file that you just extracted)
+4. Try to transform data for checking and cleaning dataset
+5. Data cleaning process start by checking all column in filter, if there is a (blank) option
