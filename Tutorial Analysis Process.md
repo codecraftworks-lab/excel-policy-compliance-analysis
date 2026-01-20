@@ -47,3 +47,29 @@ Tools
 1. Excel filter
 2. COUNTBLANK, COUNTA
 3. Power Query → Column Profile
+
+2️⃣ Data Cleansing & Preparation
+Masalah data yang umum
+1. Spasi berlebih (" HR ", "HR")
+2. Kapitalisasi tidak konsisten
+3. Missing values di kolom penting
+4. Angka disimpan sebagai teks
+5. Tanggal tidak terbaca Excel
+
+Teknik yang digunakan
+
+A. Power Query (direkomendasikan)
+   1. Trim & clean text
+   2. Change data type
+   3. Replace values
+   4. Remove error
+
+B. Rumus Excel (alternatif cepat)
+   1. TRIM() → hapus spasi
+   2. PROPER() → standarisasi teks
+   3. NUMBERVALUE() → teks ke angka
+   4. IFERROR() → handle error
+
+Prinsip penting
+
+Jangan menghapus data sembarangan. Jika ragu, buat kategori Unknown.
