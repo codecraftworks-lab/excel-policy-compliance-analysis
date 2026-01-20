@@ -71,5 +71,16 @@ B. Rumus Excel (alternatif cepat)
    4. IFERROR() → handle error
 
 Prinsip penting
-
 Jangan menghapus data sembarangan. Jika ragu, buat kategori Unknown.
+
+3️⃣ Feature Engineering (Kolom Turunan)
+
+Kolom turunan mempercepat analisis dan dashboard.
+Contoh kolom yang dibuat:
+1. Year
+2. Month
+3. YearMonth
+4. Is_Compliant (1 = compliant, 0 = non‑compliant)
+5. Compliance_Flag (teks)
+
+Contoh rumus: =IF([@Status]="Compliant",1,0)
