@@ -29,21 +29,21 @@ Alur kerja analisis mengikuti prinsip profesional data analytics:
 
 1️⃣ Data Understanding & Profiling
 Apa yang dicek?
-● Jumlah baris & kolom
-● Tipe data (numeric, teks, tanggal)
-● Missing values (%)
-● Duplikasi baris
-● Nilai unik pada kolom kategorikal
+1. Jumlah baris & kolom
+2. Tipe data (numeric, teks, tanggal)
+3. Missing values (%)
+4. Duplikasi baris
+5. Nilai unik pada kolom kategorikal
 
-**Kenapa penting?**
-● Pivot Table sangat sensitif terhadap:
-● Tipe data salah
-● Kategori tidak konsisten
-● Nilai kosong
+Kenapa penting?
+Pivot Table sangat sensitif terhadap:
+1. Tipe data salah
+2. Kategori tidak konsisten
+3. Nilai kosong
 
 Kalau tahap ini dilewati → dashboard akan “cantik tapi bohong”.
 
-**Tools**
-● Excel filter
-● COUNTBLANK, COUNTA
-● Power Query → Column Profile
+Tools
+1. Excel filter
+2. COUNTBLANK, COUNTA
+3. Power Query → Column Profile
