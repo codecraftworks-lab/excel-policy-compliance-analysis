@@ -15,3 +15,15 @@ Output akhir:
 1. Data bersih (clean dataset)
 2. Pivot Table analitis
 3. Dashboard Excel siap presentasi
+
+🧠 **Gambaran Proses Analisis (Big Picture)**
+
+Alur kerja analisis mengikuti prinsip profesional data analytics:
+1. Data Understanding & Profiling
+2. Data Cleansing & Preparation
+3. Feature Engineering (kolom turunan)
+4. Pivot Table Modeling
+5. Visualisasi (Pivot Chart)
+6. Dashboard Design
+7. Insight & Rekomendasi Bisnis
+
