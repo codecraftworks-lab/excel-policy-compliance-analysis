@@ -1,15 +1,17 @@
-Search for a dataset on Kaggle.
+📊 **Policy Compliance Analysis – End-to-End Excel Tutorial**
 
-1. Download the file and extract it to a folder you have prepared.
-2. Open Excel and import the data from the CSV file (the extracted file).
-3. Transform the data to review and clean the dataset.
-4. Data cleaning process:
-   a. Perform a logical cross-check by understanding the meaning of each column.
-   b. Check the filter of all columns to see if there is a (blank) option.
-      Found: Non_Compliance_Reason
-      This column has many rows without values.
-      This column is related to the Policy_Compliance column.
-      If the value in Policy_Compliance is No, the Non_Compliance_Reason column should have a value.
-      If the value in Policy_Compliance is Yes, the Non_Compliance_Reason column should be blank.
-   c. Check if there are columns with multiple values in one cell.
-      Found: Non_Compliance_Reason
+Dokumen ini adalah tutorial proses analisis data berbasis Excel yang siap dipublikasikan di GitHub (README.md atau Wiki). Fokusnya: bagaimana mengubah data mentah kebijakan/compliance menjadi insight yang bisa dipakai manajemen untuk mengambil keputusan.
+Studi kasus menggunakan dataset kaggle yaitu Policy Compliance (4.000 baris, 12 kolom), namun metodologi bersifat generik dan bisa diterapkan ke dataset lain.
+
+🎯 **Tujuan Analisis**
+
+Tujuan utama analisis ini adalah:
+1. Mengukur tingkat kepatuhan (compliance rate)
+2. Mengidentifikasi area bermasalah (department / kategori / periode)
+3. Menemukan akar masalah non‑compliance
+4. Menyajikan hasil dalam dashboard Excel yang ringkas & eksekutif
+
+Output akhir:
+1. Data bersih (clean dataset)
+2. Pivot Table analitis
+3. Dashboard Excel siap presentasi
