@@ -27,3 +27,23 @@ Alur kerja analisis mengikuti prinsip profesional data analytics:
 6. Dashboard Design
 7. Insight & Rekomendasi Bisnis
 
+1️⃣ Data Understanding & Profiling
+Apa yang dicek?
+● Jumlah baris & kolom
+● Tipe data (numeric, teks, tanggal)
+● Missing values (%)
+● Duplikasi baris
+● Nilai unik pada kolom kategorikal
+
+**Kenapa penting?**
+● Pivot Table sangat sensitif terhadap:
+● Tipe data salah
+● Kategori tidak konsisten
+● Nilai kosong
+
+Kalau tahap ini dilewati → dashboard akan “cantik tapi bohong”.
+
+**Tools**
+● Excel filter
+● COUNTBLANK, COUNTA
+● Power Query → Column Profile
