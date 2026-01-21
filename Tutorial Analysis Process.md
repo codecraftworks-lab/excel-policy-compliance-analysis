@@ -84,3 +84,21 @@ Contoh kolom yang dibuat:
 5. Compliance_Flag (teks)
 
 Contoh rumus: =IF([@Status]="Compliant",1,0)
+
+4️⃣ **Pivot Table Modeling**
+**Pivot 1 – Compliance Overview**
+Tujuan: melihat distribusi compliant vs non‑compliant
+- Rows: Department / Policy Category
+- Columns: Compliance Status
+- Values: Count of Record
+
+**Pivot 2 – Trend Analysis**
+Tujuan: melihat perubahan compliance dari waktu ke waktu
+- Rows: YearMonth
+- Values: Compliance Rate
+
+**Pivot 3 – Root Cause (Pareto)**
+Tujuan: fokus pada penyebab utama non‑compliance
+- Rows: Reason Category
+- Values: Count
+- Sort: Descending
