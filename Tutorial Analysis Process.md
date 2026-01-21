@@ -11,7 +11,7 @@ Tujuan utama analisis ini adalah:
 3. Menemukan akar masalah non‑compliance
 4. Menyajikan hasil dalam dashboard Excel yang ringkas & eksekutif
 
-Output akhir:
+**Output akhir:**
 1. Data bersih (clean dataset)
 2. Pivot Table analitis
 3. Dashboard Excel siap presentasi
@@ -27,7 +27,7 @@ Alur kerja analisis mengikuti prinsip profesional data analytics:
 6. Dashboard Design
 7. Insight & Rekomendasi Bisnis
 
-1️⃣ Data Understanding & Profiling
+1️⃣ **Data Understanding & Profiling**
 Apa yang dicek?
 1. Jumlah baris & kolom
 2. Tipe data (numeric, teks, tanggal)
@@ -43,37 +43,35 @@ Pivot Table sangat sensitif terhadap:
 
 Kalau tahap ini dilewati → dashboard akan “cantik tapi bohong”.
 
-Tools
+**Tools**
 1. Excel filter
 2. COUNTBLANK, COUNTA
 3. Power Query → Column Profile
 
-2️⃣ Data Cleansing & Preparation
-Masalah data yang umum
+2️⃣ **Data Cleansing & Preparation**
+**Masalah data yang umum**
 1. Spasi berlebih (" HR ", "HR")
 2. Kapitalisasi tidak konsisten
 3. Missing values di kolom penting
 4. Angka disimpan sebagai teks
 5. Tanggal tidak terbaca Excel
 
-Teknik yang digunakan
-
+**Teknik yang digunakan**
 A. Power Query (direkomendasikan)
    1. Trim & clean text
    2. Change data type
    3. Replace values
    4. Remove error
-
 B. Rumus Excel (alternatif cepat)
    1. TRIM() → hapus spasi
    2. PROPER() → standarisasi teks
    3. NUMBERVALUE() → teks ke angka
    4. IFERROR() → handle error
 
-Prinsip penting
+**Prinsip penting**
 Jangan menghapus data sembarangan. Jika ragu, buat kategori Unknown.
 
-3️⃣ Feature Engineering (Kolom Turunan)
+3️⃣ **Feature Engineering (Kolom Turunan)**
 
 Kolom turunan mempercepat analisis dan dashboard.
 Contoh kolom yang dibuat:
@@ -102,3 +100,16 @@ Tujuan: fokus pada penyebab utama non‑compliance
 - Rows: Reason Category
 - Values: Count
 - Sort: Descending
+
+5️⃣ **Visualisasi (Pivot Chart)**
+
+Prinsip visual:
+- Satu chart = satu pertanyaan bisnis
+- Warna konsisten (good vs bad)
+- Hindari dekorasi berlebihan
+
+Rekomendasi chart:
+- Line chart → trend compliance
+- Stacked column → perbandingan department
+- Bar chart → Pareto reason
+- Heatmap → deteksi area bermasalah
